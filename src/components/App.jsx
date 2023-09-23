@@ -10,10 +10,10 @@ function App() {
   return (
     <div>
       <Navigationbar />
-      <BrowserRouter basename="/">
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Input />} />
-          <Route path="/random" element={<Random />} />
+          <Route path="random" element={<Random />} />
         </Routes>
       </BrowserRouter>
     </div>
