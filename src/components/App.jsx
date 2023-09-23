@@ -12,8 +12,8 @@ function App() {
       <Navigationbar />
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Input />} />
-          <Route exact path="/random" element={<Random/>} />
+          <Route exact path="/" component={Input} />
+          <Route exact path="/random" element={Random} />
         </Routes>
       </BrowserRouter>
     </div>
