@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+    font-size: 1.05rem;;
+}
+body{
+    text-align: center;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+}
+.navbar, .navigation, .copyContent{
+    box-shadow: 2px 2px 15px -2px rgba(0,0,0,.4);
+}
+.navigation{
+    margin-bottom: 20px;
+}
+.copy{
+    
+    margin: 60px 6px;
+
+}
+.copyContent{
+    font-size: 2rem;
+    padding: 8px 20px 12px 20px;
+    background-color: #FFC107;
+    display: inline-block;
+    width: auto;
+    border-radius: 5px; 
+}
+.copyIcon{
+    cursor: pointer;
+    padding: 0px; 
+    margin-left: 15px;
+    position: relative;
+    bottom: 5px;
+}
+.alert{
+    width: 180px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+}
