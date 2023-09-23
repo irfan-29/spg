@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Input />} />
-          <Route path="random" element={<Random />} />
+          <Route path="random" element={<h1>Hello</h1>} />
         </Routes>
       </BrowserRouter>
     </div>
