@@ -52,7 +52,7 @@ function Input() {
     <div style={{ margin: "60px 5px" }}>
       <ButtonGroup size="lg" className="mb-2 navigation">
         <Button variant="light" href="/" className="px-5">Create Password</Button>
-        <Button variant="dark" href="random" className="px-5">Generate Password</Button>
+        <Button variant="dark" href="/random" className="px-5">Generate Password</Button>
       </ButtonGroup>
       <br/>
       <br/>
