@@ -31,10 +31,9 @@ function Random(){
 
     return (
     <div style={{ margin: "50px 5px" }}>
-    <ButtonGroup size="lg" className="mb-2 navigation">
-        <Button variant="dark" href="/" className="px-5">Create Password</Button>
-        {/* <Button variant="light" className="px-5"><Link to="/random">Generate Password</Link></Button> */}
-        <Button variant="light" href="/random" className="px-5">Generate Password</Button>
+    <ButtonGroup size="md" className="mb-2 navigation">
+        <Button variant="dark" href="/" className="px-5 btn">Create Password</Button>
+        <Button variant="light" href="/random" className="px-5 btn">Generate Password</Button>
       </ButtonGroup>
       <br/>
       <br/>
