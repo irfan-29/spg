@@ -77,13 +77,15 @@ function Random() {
 
       <div className="copy">
         {result!=="" && <h1 className="copyContent">{result}
+        <br/>
         <CopyToClipboard text={result}>
-          <ContentCopyIcon
+          <div><ContentCopyIcon
           title="hello"
             fontSize="medium"
             onClick={() => setAlert(true)}
             className="copyIcon"
-          />
+          /><span>copy</span>
+          </div>
         </CopyToClipboard></h1> } 
         
       </div>
