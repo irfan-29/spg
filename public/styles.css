@@ -13,6 +13,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    padding-bottom: 20px;
 }
 .navBrandFull{
     visibility: visible;
@@ -80,7 +81,6 @@ span{
     opacity: 0.9;
 }
 .reset-btn{
-    width: auto;
     margin: 10px;
 }
 
@@ -112,7 +112,7 @@ span{
         font-size: 0.85rem;
         position: relative;
         left: 5px;
-        top: 2px; 
+        top: 9px; 
     }
     .copyContent{
         max-width: 98%;

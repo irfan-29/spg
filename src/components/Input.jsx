@@ -97,9 +97,7 @@ function Input() {
     });
   }
   function handleReset(){
-    setName("");
-    setDob("");
-    setNumber(12);
+    window.location.reload(false);
   }
 
   var result = name + dob;
@@ -224,8 +222,7 @@ function Input() {
           </h1>
         )}
       </div>
-      {result!=="" && (<Button variant="danger" onClick={handleReset} className="reset-btn">Reset</Button>)}
-      
+      {result!=="" && (<Button variant="danger" onClick={handleReset} style={{width: "80px"}} className="reset-btn">Reset</Button>)}    
       
     </div>
   );
